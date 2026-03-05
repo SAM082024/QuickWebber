@@ -4,7 +4,7 @@ import React from "react";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-8">
-      <h1 className="text-5xl font-bold mb-4 text-[rgb(34,139,230)]">
+      <h1 className="text-5xl font-bold mb-4 mt-25 text-[rgb(34,139,230)]">
         Welcome to QuickWebber
       </h1>
       <p className="text-lg mb-6 text-center max-w-xl text-[rgb(100,100,100)]">
@@ -27,6 +27,18 @@ export default function Home() {
         >
           Tailwind Docs
         </a>
+      </div>
+
+      <div className="min-h-screen w-full flex flex-col items-center justify-center">
+        <section className="min-h-screen w-full flex items-center justify-center">
+            <h1 className="text-7xl font-semibold">SECTION 1</h1>
+        </section>
+        <section className="min-h-screen w-full flex items-center justify-center">
+            <h1 className="text-7xl font-semibold">SECTION 2</h1>
+        </section>
+        <section className="min-h-screen w-full flex items-center justify-center">
+            <h1 className="text-7xl font-semibold">SECTION 3</h1>
+        </section>
       </div>
     </main>
   );
